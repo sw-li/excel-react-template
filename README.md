@@ -160,4 +160,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [React](https://reactjs.org/)
 - [Office JavaScript API](https://learn.microsoft.com/en-us/javascript/api/overview/excel)
 
+The basic strucutre is initiated using generator-office, then enriched with the React.
 Feel free to adapt and expand this template as per your project requirements!
