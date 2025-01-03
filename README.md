@@ -8,7 +8,7 @@ Welcome to the **Excel Taskpane Add-in Template** repository! This project provi
 ## Features
 
 - **React Framework**: Leverages the power of React for building dynamic and responsive user interfaces.
-- **Tab Navigation**: Preconfigured tab structure for easy navigation within the taskpane.
+- **Tab Navigation**: Pre-configured tab structure for easy navigation within the taskpane.
 - **Excel Add-in Ready**: Fully compliant with Microsoft Office Add-in development guidelines.
 - **Customizable**: Easily extend and customize components for your specific needs.
 
@@ -49,8 +49,9 @@ Start the development server:
 npm start
 ```
 
-This will launch Excel and a local development server, which uses the manifest file in root folder to sideload the add-in into Excel 
+This will launch Excel and a local development server, which uses the manifest file in the root folder to sideload the add-in into Excel.
 
+---
 
 ## Project Structure
 
@@ -90,7 +91,7 @@ This will launch Excel and a local development server, which uses the manifest f
 |-- webpack.config.js
 ```
 
-
+---
 
 ## Customization
 
@@ -100,7 +101,7 @@ This will launch Excel and a local development server, which uses the manifest f
 2. Import and include the component in the `App.jsx` file.
 3. Update the tab configuration with the new tab name and reference.
    
-```bash
+```jsx
 return (
     <div className={styles.root}>
       <HashRouter>
@@ -133,7 +134,7 @@ return (
 
 ### Modifying Styles
 
-The template included MUI package. Feel free to use customized styling methods. 
+The template includes the MUI package. Feel free to use customized styling methods. 
 
 ---
 
@@ -151,7 +152,7 @@ Contributions are welcome! If you’d like to contribute, please:
 
 ## License
 
-This project is licensed under the MIT License. See the MIT License file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
 
@@ -160,5 +161,5 @@ This project is licensed under the MIT License. See the MIT License file for mor
 - [React](https://reactjs.org/)
 - [Office JavaScript API](https://learn.microsoft.com/en-us/javascript/api/overview/excel)
 
-The basic strucutre is initiated using generator-office, then enriched with the React.
+The basic structure is initiated using generator-office, then enriched with React.
 Feel free to adapt and expand this template as per your project requirements!
