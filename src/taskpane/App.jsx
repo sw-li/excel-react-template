@@ -31,23 +31,19 @@ const App = () => {
           <Box sx={{ width: "100%" }}>
             <div className={styles.tabsContainer}>
               <Tabs value={value} onChange={handleChange} aria-label="nav tabs example" role="navigation">
-            
                 <Tab label="About" to="/about" component={Link} />
-                <Tab label="Users" to="/users" component={Link} /> 
-        
+                <Tab label="Users" to="/users" component={Link} />
               </Tabs>
             </div>
           </Box>
 
           <Switch>
-            
             <Route path="/">
               <AboutScreen />
             </Route>
             <Route path="/users">
               <UsersScreen />
             </Route>
-            
           </Switch>
         </div>
       </HashRouter>
